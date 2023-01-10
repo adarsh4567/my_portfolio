@@ -66,7 +66,7 @@ const Intro = () => {
             <Text>
                 <h1>Hii,</h1>
                 <h3>I'm Adarsh Kumar</h3>
-                <h6>I am a MERN-Stack Web Developer with Advance-JavaScript Skills</h6>
+                <h6>I am a MERN Stack Developer with Hands-on Industrial Experience working with various tech stack.</h6>
             </Text>
         </SubBox>
         <SubBox>

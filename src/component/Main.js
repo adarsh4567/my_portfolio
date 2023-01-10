@@ -47,11 +47,11 @@ transform:rotate(90deg) translate(-50%,-50%);
 const Work = styled(Link)`
 color:${props => props.click ? props.theme.body : props.theme.text};
 position:absolute;
-top:45%;
-left:2rem;
+top:30%;
+left:1rem;
 text-decoration:none;
 z-index:1;
-transform:rotate(-90deg) translate(-50%,-50%);
+transform:rotate(-90deg) translate(-50%,-90%);
 
 `
 const BottomBar = styled.div`
@@ -181,7 +181,7 @@ const Main = () => {
                 whileHover={{scale: 1.1}}
                 whileTap={{scale: 0.9}}
                 >
-                      Work
+                      Work Experience
                   </motion.h3>
               </Work>
               <BottomBar>

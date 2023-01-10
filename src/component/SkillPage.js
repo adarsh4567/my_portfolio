@@ -89,12 +89,12 @@ const SkillPage = () => {
 I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.
 I am interested in IT and everything in its orbit.I love to develope websites using new technologies.
 I am keen to gain experience, enhance and upgrade my skills in this field.
-I enjoy working with React-JS and Next-Js,exploring new features in these.
+I enjoy working with React-JS and Next-Js, building projects using these tech.
 </Description>
 <Description>
 <strong>Skills</strong>
 <p>
-Html, Css, Js-ES6, React-Js,Next-Js, Redux, Sass, Bootstrap,Material-Ui Tailwind etc.
+Html, Css5, Js(ES6), React-Js, Next-Js, Redux, Material-Ui Tailwind,Typescript etc.
 </p>
 </Description>
 <Description>
@@ -122,14 +122,18 @@ I have experience in working with MongoDB.I enjoy debugging the code for optimiz
 <Description>
 <strong>Skills</strong>
 <p>
-Express-Js,Node-Js,Mongo-Db,Postman,socket-io,Jwt-Authentication,Password Hashing
+Express-Js,Node-Js,MongoDb,Jwt-Authentication.
 </p>
 </Description>
 <Description>
-<strong>Project</strong>
+<strong>Projects</strong>
 <p>
 MERN-Stack Chat-Application--~
-<Link href='https://chat-always.herokuapp.com' target='_blank'>Link</Link>
+<Link href='https://chat-hub-d3q2.onrender.com' target='_blank'>Link</Link>
+</p>
+<p>
+Social Media Website--~
+<Link href='https://social-media-nine-mu.vercel.app' target='_blank'>Link</Link>
 </p>
 </Description>
          </Main>

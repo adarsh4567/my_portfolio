@@ -1,42 +1,25 @@
 // work data
+import contractFloLogo from '../assets/Images/contractFlo.png'
+import adMyBrandLogo from '../assets/Images/admybrand.png'
 
 export const Work = [
     {
         id:1,
-        name:"MERN-Stack Chat Application",
-        description:"It has a Real-time chat functionality using socket.io.I have also integrated jwtwebtokens for authoruzation and password hashing for security purpose.",
-        tags:["React","Node-Js","Express-Js","MongoDB","Cloudinary"],
-        
-        demo:"https://chat-always.herokuapp.com",
-        github:"https://github.com/adarsh4567/Mern-Stack-Chat-App"
+        name:"Full Stack Developer",
+        description:"Worked on implementation of view for Non LoggedIn users with integrated APIS. Implemented Skill section feature end to end using Parent-anchestor model in MongoDB. Added Feature in the Documents Upload section - Created Components and used Advance querries like aggregation pipeline in MongoDB.",
+        tags:["React","Node-Js","Express-Js","MongoDB","Redux"],
+        demo:"https://www.contractflo.com/about",
+        logo: contractFloLogo
+       
     },
     {
         id:2,
-        name:"Movies Website",
-        description:"It provides all types of movies at one place in different sections using MoviesDb Api",
-        tags:["react","Material-ui"],
+        name:"ReactJs Developer(NextJs)",
+        description:"Built Reusable components in NextJs like Carousel with dynamic data, Checkout section etc. Handled the flow of checkout section (CRUD operation) in cart and integrated APIs.  Explored about Atomic Design and re-structured the codebase. Worked on Unit Testing and Debugging over various components.        ",
+        tags:["NextJs","Typescript","Tailwind Css","SASS","Redux","StorybookJs","ChartJs"],
+        demo:"https://www.admybrand.com/about",
+        logo: adMyBrandLogo
         
-        demo:"https://adarsh4567.github.io/Entertainment",
-        github:"https://github.com/adarsh4567/Entertainment"
-        
-    },
-    {
-        id:3,
-        name:"Crypto-Tracking Application",
-        description:"It shows all different types of Crypto-currencies at one place.",
-        tags:["react","api","Material-Ui"],
-        
-        demo:"https://adarsh4567.github.io/Crypto-Zone/",
-        github:"https://github.com/adarsh4567/Crypto-Zone"
-    },
-    {
-        id:3,
-        name:"Next Js Travel Website",
-        description:"It shows all different types of Property and Resorts at one place.",
-        tags:["Next JS","Rapid-api","Chakra-Ui"],
-        
-        demo:"https://travel-app-rosy.vercel.app",
-        github:"https://github.com/adarsh4567/TravelApp"
     },
     
     

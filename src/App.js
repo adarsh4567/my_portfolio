@@ -7,7 +7,7 @@ import AboutPage from './component/AboutPage';
 import CodePage from './component/CodePage';
 import Main from './component/Main';
 import SkillPage from './component/SkillPage';
-import {lightTheme } from './component/Themes';
+import {DarkTheme, lightTheme } from './component/Themes';
 import WorkPage from './component/WorkPage';
 import GlobalStyle from './globalStyles';
 

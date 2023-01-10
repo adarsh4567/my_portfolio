@@ -3,16 +3,17 @@ import React from 'react'
 // import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import { Github } from '../component/AllSvg';
+import contractFloLogo from '../assets/Images/contractFlo.png'
 
 
 
 const Box = styled(motion.li)`
-width: 16rem;
-height: 40vh;
+width: 20rem;
+height: 50vh;
 background-color: ${props => props.theme.text};
 color:${props => props.theme.body};
 padding: 2.5rem 2rem;
-margin-right: 20rem;
+margin-right: 10rem;
 border-radius: 0 50px 0 50px;
 display: flex;
 flex-direction: column;
@@ -50,7 +51,7 @@ font-size:calc(0.8em + 0.3vw);
 
 const Footer = styled.footer`
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 `
 
 const Link = styled.a`
@@ -58,7 +59,6 @@ background-color: ${props =>props.theme.body};
 color: ${props =>props.theme.text};
 text-decoration: none;
 padding:0.5rem calc(2rem + 2vw);
-border-radius: 0 0 0 50px;
 font-size:calc(1em + 0.5vw);
 ${Box}:hover &{
     background-color: ${props =>props.theme.text};
@@ -66,15 +66,6 @@ ${Box}:hover &{
 }
 `
 
-const Git = styled.a`
-color: inherit;
-text-decoration: none;
-${Box}:hover &{
-    &>*{
-        fill:${props =>props.theme.text};
-    }
-}
-`
 
 // Framer motion configuration
 const Item = {
@@ -92,7 +83,7 @@ const Item = {
 
 const Card = (props) => {
 
-    const {id, name, description, tags, demo, github} = props.data;
+    const {id, name, description, tags, demo, logo} = props.data;
 
     return (
         <Box key={id} variants={Item}>
@@ -111,9 +102,9 @@ const Card = (props) => {
                 <Link href={demo} target="_blank">
                     Visit
                 </Link>
-                <Git href={github} target="_blank">
-                    <Github width={30} height={30} />
-                </Git>
+                <div>
+                    <img src={logo} width='50rem' height='50rem' style={{borderRadius:'40%'}}/>
+                </div>
             </Footer>
         </Box>
     )
